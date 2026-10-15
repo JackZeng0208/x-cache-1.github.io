@@ -21,8 +21,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           lfs: true
+      - name: Read GitHub Pages configuration
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Build with Astro
         uses: withastro/action@v3
+        env:
+          PAGES_URL: ${{ steps.pages.outputs.base_url }}
 
   deploy:
     needs: build
