@@ -2,12 +2,12 @@
 
 The project page has moved into **Rabinovich's Codex**:
 
-- English: https://www.rabin.ai/en/blog/x-cache/
-- 中文: https://www.rabin.ai/zh/blog/x-cache/
+https://www.rabin.ai/en/blog/x-cache/
 
 The original Astro source and media remain here as an archive. GitHub Actions
-now publishes only small redirect pages, preserving language, query strings,
-and section anchors. The article and redesigned interactive figures live in
+now publishes only small redirect pages, preserving query strings
+and section anchors. All old language paths now lead to the English project
+page; the Chinese version has been removed. The interactive figures live in
 `JackZeng0208/jackzeng0208.github.io`.
 
 ## Restoring the original domain
@@ -33,7 +33,7 @@ Pages address and its inherited `rabin.ai` address.
 Astro-built project page for the X-Cache technical report (XPeng AI Infra).
 Editorial-tech aesthetic, fully localised in English and Chinese, with a custom
 wipe / diff / shadow video comparator that lets the reader inspect the
-"lossless" claim pixel by pixel.
+baseline and cached outputs pixel by pixel.
 
 ## Development
 
